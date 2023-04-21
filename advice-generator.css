@@ -67,12 +67,12 @@ border-radius: 1rem;    background-color:hsl(217, 19%, 24%);
     height: 27px;
 }
 
-@media screen  and (max-width: 375px){
+@media screen and (max-width: 600px){
     .main{
         width:75%;
     }
     .button{
- position: relative;
+    position: relative;
     width: 45px;
     height: 45px;
     border: 1px solid blue;
@@ -81,8 +81,9 @@ border-radius: 1rem;    background-color:hsl(217, 19%, 24%);
     justify-content: center;
     align-items: center;
     bottom: -3.5rem;
-    left: 15rem;
-    /*left:cal(50% - 45px);  */
-    background-color: aliceblue;    }
+    left: 7.5rem;
+    left:cal(50% - 45px); 
+    background-color: aliceblue;  
+}
     
 }
