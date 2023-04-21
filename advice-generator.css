@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(218, 23%, 16%);
+    display: flex;
+}
+
+.main{
+    width: 35%;
+    min-width: 12rem;
+border-radius: 1rem;    background-color:hsl(217, 19%, 24%);
+    padding: 2rem;
+}
+
+.advice__heading{
+    text-align: center;
+    letter-spacing: 0.2rem;
+    color: hsl(150, 100%, 66%);
+    margin-bottom: 2rem;
+}
+
+.advice__text{
+    font-size: 25px;
+    color: hsl(193, 38%, 86%);
+    font-family:'Manrope', sans-serif;
+}
+
+.quotes{
+    font-size: 28px;
+    color: aliceblue;
+}
+
+/* relative = the object moves relatively to it own position */
+/* absolute = the object moves in absolutely to the container position */
+
+.divider{
+    width: 100%;
+    position: relative;
+    top: -0.1rem; 
+}
+
+.button{
+    position: relative;
+    width: 45px;
+    height: 45px;
+    border: 1px solid blue;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: -3.5rem;
+    left: 15rem;
+    /*left:cal(50% - 45px);  */
+    background-color: aliceblue;
+}
+
+.button img{
+    width: 27px;
+    height: 27px;
+}
+
+@media screen  and (max-width: 375px){
+    .main{
+        width:75%;
+    }
+    .button{
+ position: relative;
+    width: 45px;
+    height: 45px;
+    border: 1px solid blue;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: -3.5rem;
+    left: 15rem;
+    /*left:cal(50% - 45px);  */
+    background-color: aliceblue;    }
+    
+}
